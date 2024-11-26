@@ -1684,12 +1684,12 @@ span.logo {
         background-position-x: -300px;
     }
 
-    13% {
+    10% {
         background-position-x: left;
         opacity: 1;
     }
 
-    10% {
+    7% {
         background-position-x: left;
         opacity: 0;
     }
