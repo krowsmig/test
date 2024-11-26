@@ -1898,11 +1898,12 @@ body.open .nav .burger a span {
         border: 0;
         margin-bottom: 40px
     }
-
+    #projects .pro_ul h2 span { margin-top: 3px }
     #projects .pro_ul li .role_p {
-        padding-top: 15px;
+        padding-top: 13px;
         border-top: 1px solid #ebebeb;
-        margin-top: 15px
+        margin-top: 13px;
+	
     }
 
     #projects .pro_ul p span {
