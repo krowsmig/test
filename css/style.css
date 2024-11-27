@@ -1288,7 +1288,7 @@ body.open .nav .burger a span {
 
     #wrapper .pro_ul .case_btn {
         border-radius: 0;
-        background: 0 0;
+        background: none;
         width: 100%;
         height: 100%;
         top: 0;
