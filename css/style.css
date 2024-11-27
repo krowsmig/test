@@ -2576,8 +2576,12 @@ p.sub span.p_0.span_1.ro_ani,p.sub span.p_0.span_2.ro_ani,p.sub span.p_0.span_3.
 }
 
 @media screen and (max-width: 1024px) {
- .pro_ul li a:after, .pro_ul li a:before {
-    width:0px !important;
+ .pro_ul li a:after, 
+ .pro_ul li a:before,
+ .pro_ul li:hover a:before,
+ .pro_ul li:hover a:after {
+	 transform: translateY(-1000px)
+	 width:0px !important;
 	 height:0px !important;
 	 z-index: -100;
 	 
