@@ -2481,11 +2481,11 @@ p.sub span.p_0.span_1.ro_ani,p.sub span.p_0.span_2.ro_ani,p.sub span.p_0.span_3.
         transform: translate(0,.66px)
     }
 
-    8% {
+    9% {
         opacity: 1
     }
 
-    0%,5% {
+    0%,7% {
         opacity: 0;
         transform: rotate(0)
     }
