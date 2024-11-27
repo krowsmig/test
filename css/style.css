@@ -1311,6 +1311,11 @@ body.open .nav .burger a span {
     #projects .pro_ul:after,.pro_ul li .bk,.pro_ul li .case_btn:after,.pro_ul li .case_btn:before,.pro_ul li .pro_div:after {
         display: none
     }
+    .pro_ul li:hover .case_btn:before,
+	.pro_ul li:hover .case_btn:after,
+	.pro_ul li .case_btn:before,
+	.pro_ul li .case_btn:after
+	{display:none !important;}
 
     .pro_ul .descript .descript_div * {
         color: #1c1c1c;
