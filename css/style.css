@@ -847,6 +847,557 @@ body.open .nav .burger a span {
     color: #fff
 }
 
+#cont .main span.txt_ani {
+    transform: scale3d(1.08,1,1)
+}
+
+p.sub span.p_0.span_1.ro_ani,p.sub span.p_0.span_2.ro_ani,p.sub span.p_0.span_3.ro_ani,p.sub span.p_1.span_1.ro_ani,p.sub span.p_1.span_2.ro_ani,p.sub span.p_2.span_1.ro_ani,p.sub span.p_2.span_2.ro_ani,p.sub span.p_3.span_1.ro_ani,p.sub span.p_3.span_2.ro_ani,p.sub span.p_3.span_3.ro_ani {
+    animation: 2s ease-out ro_ani
+}
+
+@keyframes ro_ani {
+    0%,10%,100%,65% {
+        transform: scale(1,1);
+        color: #fff;
+        border-color: #fff
+    }
+
+    35% {
+        transform: scale(1,-1);
+        color: #1c1c1c;
+        border-color: #1c1c1c
+    }
+}
+
+.abt_ul li span {
+    background: 0 0!important
+}
+
+.dev_li svg {
+    width: 100px;
+    margin-top: 3px
+}
+
+.default_bg {
+    fill: #f4f4f4
+}
+
+.bar,.txt_default_clr {
+    fill: #d0d0d9
+}
+
+.darkline {
+    stroke: #000000
+}
+
+.dev_li.svg_ani svg .blu,.dev_li.svg_ani svg .grn,.dev_li.svg_ani svg .gry,.dev_li.svg_ani svg .orn {
+    animation: 4s infinite animation1;
+    transition: 1s
+}
+
+@keyframes animation1 {
+    0%,100%,50% {
+        transform: translate(0,0)
+    }
+
+    75% {
+        transform: translate(0,-30px)
+    }
+
+    25% {
+        transform: translate(0,-15px)
+    }
+}
+
+.dev_li.svg_ani svg .blu {
+    animation: 4s infinite animation10;
+    transition: 1s
+}
+
+@keyframes animation10 {
+    0%,100%,50% {
+        transform: translate(0,0)
+    }
+
+    75% {
+        transform: translate(0,-30px);
+        fill: #6238FF
+    }
+
+    25% {
+        transform: translate(0,-15px);
+        fill: #6238FF
+    }
+}
+
+.dev_li.svg_ani svg #txt1 {
+    animation: 4s infinite opa_1;
+    transition: 1s
+}
+
+@keyframes opa_1 {
+    0%,100%,53%,90% {
+        opacity: 1
+    }
+
+    25%,34%,58%,80%,83% {
+        opacity: 0
+    }
+}
+
+.dev_li.svg_ani svg #txt2 {
+    animation: 4s infinite opa_2;
+    transition: 1s
+}
+
+@keyframes opa_2 {
+    0%,100%,50%,54% {
+        opacity: 1
+    }
+
+    70%,80% {
+        opacity: 0
+    }
+}
+
+.dev_li.svg_ani svg #txt5 {
+    animation: 4s infinite opa_3;
+    transition: 1s
+}
+
+@keyframes opa_3 {
+    0%,100%,40%,45%,5%,92% {
+        opacity: 0
+    }
+
+    15%,30%,86% {
+        opacity: 1
+    }
+}
+
+.dev_li.svg_ani svg #txt6 {
+    animation: 4s infinite opa_4;
+    transition: 1s
+}
+
+@keyframes opa_4 {
+    0%,100%,30%,60%,90% {
+        opacity: 0
+    }
+
+    40%,50%,70%,80% {
+        opacity: 1
+    }
+}
+
+.dev_li.svg_ani svg .bar rect {
+    animation: 4s infinite animation;
+    transition: 1s
+}
+
+@keyframes animation {
+    0%,100%,50% {
+        transform: translate(0,0);
+        fill: #aeaec1
+    }
+
+    75% {
+        transform: translate(0,27px);
+        fill: #000
+    }
+
+    25% {
+        transform: translate(0,15px);
+        fill: #000
+    }
+}
+
+.tool_li svg {
+    width: 100px;
+    margin-left: 13px
+}
+
+#dots circle {
+    stroke-width: 2px;
+    stroke: #000
+}
+
+#arrow {
+    transform: translate(0,24px);
+    opacity: 0;
+    transition: .2s
+}
+
+#tl_lines path {
+    stroke: #000
+}
+
+.tool_li.svg_ani svg #arrow {
+    animation: 4s infinite arw_1;
+    transition: 1s
+}
+
+@keyframes arw_1 {
+    100% {
+        ransform: translate(0,24px)
+    }
+
+    10%,70% {
+        transform: translate(0,0);
+        opacity: 1
+    }
+
+    56% {
+        opacity: 1;
+        transform: translate(188px,-146px)
+    }
+
+    42% {
+        transform: translate(-44px,-262px)
+    }
+
+    28% {
+        transform: translate(-232px,-121px)
+    }
+}
+
+.tool_li.svg_ani svg #arrow .arrow_outline {
+    animation: 4s infinite arw_out;
+    transition: 1s
+}
+
+@keyframes arw_out {
+    10%,100%,72% {
+        fill: #fff
+    }
+
+    11%,56%,71% {
+        fill: #000
+    }
+}
+
+.tool_li.svg_ani svg #arrow .arrow_body {
+    animation: 4s infinite arw_body;
+    transition: 1s
+}
+
+@keyframes arw_body {
+    10%,100%,71% {
+        fill: #000
+    }
+
+    11%,56%,70% {
+        fill: #fff
+    }
+}
+
+.tool_li.svg_ani svg #tls rect {
+    animation: 4s infinite arw_7;
+    transition: 1s
+}
+
+@keyframes arw_7 {
+    100%,72% {
+        fill: #f4f4f4
+    }
+
+    73% {
+        fill: #d5d9ff
+    }
+}
+
+.tool_li.svg_ani svg #right_bttom circle {
+    animation: 4s infinite dots_1;
+    transition: 1s
+}
+
+@keyframes dots_1 {
+    100%,9% {
+        stroke: #000
+    }
+
+    10%,81% {
+        stroke: #3D4FFF
+    }
+}
+
+.tool_li.svg_ani svg #left_bottom circle {
+    animation: 4s infinite dots_2;
+    transition: 1s
+}
+
+@keyframes dots_2 {
+    100%,27% {
+        stroke: #000
+    }
+
+    28%,81% {
+        stroke: #3D4FFF
+    }
+}
+
+.tool_li.svg_ani svg #left_top circle {
+    animation: 4s infinite dots_3;
+    transition: 1s
+}
+
+@keyframes dots_3 {
+    100%,41% {
+        stroke: #000
+    }
+
+    42%,81% {
+        stroke: #3D4FFF
+    }
+}
+
+.tool_li.svg_ani svg #right_top circle {
+    animation: 4s infinite dots_4;
+    transition: 1s
+}
+
+@keyframes dots_4 {
+    100%,55% {
+        stroke: #000
+    }
+
+    56%,81% {
+        stroke: #3D4FFF
+    }
+}
+
+.tool_li.svg_ani svg #lines path {
+    animation: 4s infinite arw_2;
+    transition: 1s
+}
+
+@keyframes arw_2 {
+    100%,27% {
+        stroke: #000
+    }
+
+    28%,81% {
+        stroke: #3D4FFF
+    }
+}
+
+.tool_li.svg_ani svg #lines_3 path {
+    animation: 4s infinite arw_3;
+    transition: 1s
+}
+
+@keyframes arw_3 {
+    100%,41% {
+        stroke: #000
+    }
+
+    42%,81% {
+        stroke: #3D4FFF
+    }
+}
+
+.tool_li.svg_ani svg #lines_2 path {
+    animation: 4s infinite arw_4;
+    transition: 1s
+}
+
+@keyframes arw_4 {
+    100%,55% {
+        stroke: #000
+    }
+
+    56%,81% {
+        stroke: #3D4FFF
+    }
+}
+
+.tool_li.svg_ani svg #lines_4 path {
+    animation: 4s infinite arw_5;
+    transition: 1s
+}
+
+@keyframes arw_5 {
+    100%,69% {
+        stroke: #000
+    }
+
+    70%,81% {
+        stroke: #3D4FFF
+    }
+}
+
+.worker_li svg {
+    width: 60px;
+    margin-top: -4px
+}
+
+.bg_white {
+    fill: #fff
+}
+
+.cr_1 {
+    stroke-width: 4.5px;
+    stroke: #000
+}
+
+.worker_li.svg_ani svg {
+    animation: 4s infinite wrkr_0
+}
+
+@keyframes wrkr_0 {
+    0%,15%,80% {
+        transform: rotate(0)
+    }
+
+    40%,70% {
+        transform: rotate(-10deg)
+    }
+
+    25%,55% {
+        transform: rotate(10deg)
+    }
+}
+
+.worker_li.svg_ani svg #f_feat {
+    animation: 4s infinite wrkr_2
+}
+
+@keyframes wrkr_2 {
+    100%, 90% {
+        opacity: 0
+    }
+
+    72% {
+        transform: rotate(0)
+    }
+
+    71% {
+        opacity: 0;
+        transform: translate(0,0)
+    }
+
+    70% {
+        opacity: 1;
+        transform: translate(0,.66px)
+    }
+
+    20% {
+        transform: rotate(10deg);
+        opacity: 1;
+        transform: translate(0,.66px)
+    }
+
+    9% {
+        opacity: 1
+    }
+
+    0%,7% {
+        opacity: 0;
+        transform: rotate(0)
+    }
+}
+
+.worker_li svg .cr_2 { stroke-width: 0px }
+.worker_li.svg_ani svg .cr_2 { animation: wrkr_4 4s infinite; }
+@keyframes wrkr_4 {
+    100% {
+    } 73% {
+        stroke-width: 0;
+        fill: #fff;
+        transform: translate(0, 0);
+    } 71% {
+        stroke-width: 14px;
+        transform: translate(0, 5px);
+        stroke:#FFCD4A;
+        fill: #FFCD4A;
+    } 20% {
+
+    } 7% {
+        stroke:#FFCD4A;
+        fill: #FFCD4A;
+        stroke-width: 14px;
+        transform: translate(0, 5px);
+    } 6% {
+        stroke-width: 0px;
+        
+    } 0% {
+        transform: translate(0, 0);
+        stroke-width: 0px;
+        fill: #fff;
+        
+    }
+}
+
+.worker_li  svg .cr_1  { stroke-width: 4.5px; fill: #FFCD4A }
+.worker_li.svg_ani svg .cr_1 { animation: wrkr_3 4s infinite; }
+@keyframes wrkr_3 {
+    100% {
+    } 73% {
+        stroke-width: 4.5px;
+        
+        transform: translate(0, 0);
+    } 71% {
+        stroke-width: 18px;
+        transform: translate(0, 5px);   
+        fill: #FFCD4A;
+    } 20% {
+    } 7% {
+        stroke-width: 18px;
+        transform: translate(0, 5px);
+        fill: #FFCD4A;
+    } 6% {
+        stroke-width: 4.5px;
+    }  0% {
+        transform: translate(0, 0);
+        stroke-width: 4.5px;
+        fill: #FFCD4A;
+    }   
+}
+
+.worker_li.svg_ani svg .sh_1 {
+    animation: 4s infinite wrkr_5
+}
+
+@keyframes wrkr_5 {
+    0%,80% {
+        transform: translate(0,0);
+        fill: #fff
+    }
+
+    12%,70% {
+        transform: translate(0,15px);
+        fill: #FFCD4A
+    }
+}
+
+.worker_li.svg_ani svg .sh_2 {
+    animation: 4s infinite wrkr_6
+}
+
+@keyframes wrkr_6 {
+    0%,75% {
+        transform: translate(0,0)
+    }
+
+    12%,70% {
+        transform: translate(0,15px)
+    }
+}
+
+@media screen and (max-width: 1024px) {
+ .pro_ul li a:after, 
+ .pro_ul li a:before,
+ .pro_ul li:hover a:before,
+ .pro_ul li:hover a:after {
+     transform: translateY(-1000px)
+     width:0px !important;
+     height:0px !important;
+     z-index: -100;
+     
+  }
+}
+
+
 @media screen and (max-width: 1700px) {
     .main span {
         font-size:78px
@@ -1775,7 +2326,8 @@ body.open .nav .burger a span {
     }
 
     #cont p.main span,.gdbye p {
-        font-size: 39px
+        font-size: 39px;
+        letter-spacing: 1px;
     }
 
     #cont p.sub {
@@ -1856,7 +2408,7 @@ body.open .nav .burger a span {
     #cont p.main,.gdbye p {
         padding-left: 20px;
         font-size: 30px;
-        line-height: 35px;
+        line-height: 36px;
     }
 
     .gdbye {
@@ -1959,7 +2511,7 @@ body.open .nav .burger a span {
 
 @media screen and (max-width: 375px) {
     #cont,.gdbye {
-        padding: 380px 0 40px;
+        padding: 364px 0 42px;
         max-height: 550px;
     }
 
@@ -2001,6 +2553,9 @@ body.open .nav .burger a span {
         font-size: 32px;
         line-height: 34px;
     }
+    #cont p.main span { font-size: 32px;}
+
+    
 }
 
 @media screen and (max-width: 320px) {
@@ -2010,7 +2565,7 @@ body.open .nav .burger a span {
     }
 
     #cont,.gdbye {
-        padding: 276px 0 30px;
+        padding: 266px 0 40px;
         max-height: 414px;
     }
 
@@ -2024,7 +2579,7 @@ body.open .nav .burger a span {
     }
 
     #cont p.main span {
-        font-size: 27px
+        font-size: 26px;
     }
 
     #cont .sub span {
@@ -2048,552 +2603,3 @@ body.open .nav .burger a span {
     }
 }
 
-#cont .main span.txt_ani {
-    transform: scale3d(1.08,1,1)
-}
-
-p.sub span.p_0.span_1.ro_ani,p.sub span.p_0.span_2.ro_ani,p.sub span.p_0.span_3.ro_ani,p.sub span.p_1.span_1.ro_ani,p.sub span.p_1.span_2.ro_ani,p.sub span.p_2.span_1.ro_ani,p.sub span.p_2.span_2.ro_ani,p.sub span.p_3.span_1.ro_ani,p.sub span.p_3.span_2.ro_ani,p.sub span.p_3.span_3.ro_ani {
-    animation: 2s ease-out ro_ani
-}
-
-@keyframes ro_ani {
-    0%,10%,100%,65% {
-        transform: scale(1,1);
-        color: #fff;
-        border-color: #fff
-    }
-
-    35% {
-        transform: scale(1,-1);
-        color: #1c1c1c;
-        border-color: #1c1c1c
-    }
-}
-
-.abt_ul li span {
-    background: 0 0!important
-}
-
-.dev_li svg {
-    width: 100px;
-    margin-top: 3px
-}
-
-.default_bg {
-    fill: #f4f4f4
-}
-
-.bar,.txt_default_clr {
-    fill: #d0d0d9
-}
-
-.darkline {
-    stroke: #000000
-}
-
-.dev_li.svg_ani svg .blu,.dev_li.svg_ani svg .grn,.dev_li.svg_ani svg .gry,.dev_li.svg_ani svg .orn {
-    animation: 4s infinite animation1;
-    transition: 1s
-}
-
-@keyframes animation1 {
-    0%,100%,50% {
-        transform: translate(0,0)
-    }
-
-    75% {
-        transform: translate(0,-30px)
-    }
-
-    25% {
-        transform: translate(0,-15px)
-    }
-}
-
-.dev_li.svg_ani svg .blu {
-    animation: 4s infinite animation10;
-    transition: 1s
-}
-
-@keyframes animation10 {
-    0%,100%,50% {
-        transform: translate(0,0)
-    }
-
-    75% {
-        transform: translate(0,-30px);
-        fill: #6238FF
-    }
-
-    25% {
-        transform: translate(0,-15px);
-        fill: #6238FF
-    }
-}
-
-.dev_li.svg_ani svg #txt1 {
-    animation: 4s infinite opa_1;
-    transition: 1s
-}
-
-@keyframes opa_1 {
-    0%,100%,53%,90% {
-        opacity: 1
-    }
-
-    25%,34%,58%,80%,83% {
-        opacity: 0
-    }
-}
-
-.dev_li.svg_ani svg #txt2 {
-    animation: 4s infinite opa_2;
-    transition: 1s
-}
-
-@keyframes opa_2 {
-    0%,100%,50%,54% {
-        opacity: 1
-    }
-
-    70%,80% {
-        opacity: 0
-    }
-}
-
-.dev_li.svg_ani svg #txt5 {
-    animation: 4s infinite opa_3;
-    transition: 1s
-}
-
-@keyframes opa_3 {
-    0%,100%,40%,45%,5%,92% {
-        opacity: 0
-    }
-
-    15%,30%,86% {
-        opacity: 1
-    }
-}
-
-.dev_li.svg_ani svg #txt6 {
-    animation: 4s infinite opa_4;
-    transition: 1s
-}
-
-@keyframes opa_4 {
-    0%,100%,30%,60%,90% {
-        opacity: 0
-    }
-
-    40%,50%,70%,80% {
-        opacity: 1
-    }
-}
-
-.dev_li.svg_ani svg .bar rect {
-    animation: 4s infinite animation;
-    transition: 1s
-}
-
-@keyframes animation {
-    0%,100%,50% {
-        transform: translate(0,0);
-        fill: #aeaec1
-    }
-
-    75% {
-        transform: translate(0,27px);
-        fill: #000
-    }
-
-    25% {
-        transform: translate(0,15px);
-        fill: #000
-    }
-}
-
-.tool_li svg {
-    width: 100px;
-    margin-left: 13px
-}
-
-#dots circle {
-    stroke-width: 2px;
-    stroke: #000
-}
-
-#arrow {
-    transform: translate(0,24px);
-    opacity: 0;
-    transition: .2s
-}
-
-#tl_lines path {
-    stroke: #000
-}
-
-.tool_li.svg_ani svg #arrow {
-    animation: 4s infinite arw_1;
-    transition: 1s
-}
-
-@keyframes arw_1 {
-    100% {
-        ransform: translate(0,24px)
-    }
-
-    10%,70% {
-        transform: translate(0,0);
-        opacity: 1
-    }
-
-    56% {
-        opacity: 1;
-        transform: translate(188px,-146px)
-    }
-
-    42% {
-        transform: translate(-44px,-262px)
-    }
-
-    28% {
-        transform: translate(-232px,-121px)
-    }
-}
-
-.tool_li.svg_ani svg #arrow .arrow_outline {
-    animation: 4s infinite arw_out;
-    transition: 1s
-}
-
-@keyframes arw_out {
-    10%,100%,72% {
-        fill: #fff
-    }
-
-    11%,56%,71% {
-        fill: #000
-    }
-}
-
-.tool_li.svg_ani svg #arrow .arrow_body {
-    animation: 4s infinite arw_body;
-    transition: 1s
-}
-
-@keyframes arw_body {
-    10%,100%,71% {
-        fill: #000
-    }
-
-    11%,56%,70% {
-        fill: #fff
-    }
-}
-
-.tool_li.svg_ani svg #tls rect {
-    animation: 4s infinite arw_7;
-    transition: 1s
-}
-
-@keyframes arw_7 {
-    100%,72% {
-        fill: #f4f4f4
-    }
-
-    73% {
-        fill: #d5d9ff
-    }
-}
-
-.tool_li.svg_ani svg #right_bttom circle {
-    animation: 4s infinite dots_1;
-    transition: 1s
-}
-
-@keyframes dots_1 {
-    100%,9% {
-        stroke: #000
-    }
-
-    10%,81% {
-        stroke: #3D4FFF
-    }
-}
-
-.tool_li.svg_ani svg #left_bottom circle {
-    animation: 4s infinite dots_2;
-    transition: 1s
-}
-
-@keyframes dots_2 {
-    100%,27% {
-        stroke: #000
-    }
-
-    28%,81% {
-        stroke: #3D4FFF
-    }
-}
-
-.tool_li.svg_ani svg #left_top circle {
-    animation: 4s infinite dots_3;
-    transition: 1s
-}
-
-@keyframes dots_3 {
-    100%,41% {
-        stroke: #000
-    }
-
-    42%,81% {
-        stroke: #3D4FFF
-    }
-}
-
-.tool_li.svg_ani svg #right_top circle {
-    animation: 4s infinite dots_4;
-    transition: 1s
-}
-
-@keyframes dots_4 {
-    100%,55% {
-        stroke: #000
-    }
-
-    56%,81% {
-        stroke: #3D4FFF
-    }
-}
-
-.tool_li.svg_ani svg #lines path {
-    animation: 4s infinite arw_2;
-    transition: 1s
-}
-
-@keyframes arw_2 {
-    100%,27% {
-        stroke: #000
-    }
-
-    28%,81% {
-        stroke: #3D4FFF
-    }
-}
-
-.tool_li.svg_ani svg #lines_3 path {
-    animation: 4s infinite arw_3;
-    transition: 1s
-}
-
-@keyframes arw_3 {
-    100%,41% {
-        stroke: #000
-    }
-
-    42%,81% {
-        stroke: #3D4FFF
-    }
-}
-
-.tool_li.svg_ani svg #lines_2 path {
-    animation: 4s infinite arw_4;
-    transition: 1s
-}
-
-@keyframes arw_4 {
-    100%,55% {
-        stroke: #000
-    }
-
-    56%,81% {
-        stroke: #3D4FFF
-    }
-}
-
-.tool_li.svg_ani svg #lines_4 path {
-    animation: 4s infinite arw_5;
-    transition: 1s
-}
-
-@keyframes arw_5 {
-    100%,69% {
-        stroke: #000
-    }
-
-    70%,81% {
-        stroke: #3D4FFF
-    }
-}
-
-.worker_li svg {
-    width: 60px;
-    margin-top: -4px
-}
-
-.bg_white {
-    fill: #fff
-}
-
-.cr_1 {
-    stroke-width: 4.5px;
-    stroke: #000
-}
-
-.worker_li.svg_ani svg {
-    animation: 4s infinite wrkr_0
-}
-
-@keyframes wrkr_0 {
-    0%,15%,80% {
-        transform: rotate(0)
-    }
-
-    40%,70% {
-        transform: rotate(-10deg)
-    }
-
-    25%,55% {
-        transform: rotate(10deg)
-    }
-}
-
-.worker_li.svg_ani svg #f_feat {
-    animation: 4s infinite wrkr_2
-}
-
-@keyframes wrkr_2 {
-    100%, 90% {
-        opacity: 0
-    }
-
-    72% {
-        transform: rotate(0)
-    }
-
-    71% {
-        opacity: 0;
-        transform: translate(0,0)
-    }
-
-    70% {
-        opacity: 1;
-        transform: translate(0,.66px)
-    }
-
-    20% {
-        transform: rotate(10deg);
-        opacity: 1;
-        transform: translate(0,.66px)
-    }
-
-    9% {
-        opacity: 1
-    }
-
-    0%,7% {
-        opacity: 0;
-        transform: rotate(0)
-    }
-}
-
-.worker_li svg .cr_2 { stroke-width: 0px }
-.worker_li.svg_ani svg .cr_2 { animation: wrkr_4 4s infinite; }
-@keyframes wrkr_4 {
-    100% {
-    } 73% {
-        stroke-width: 0;
-        fill: #fff;
-        transform: translate(0, 0);
-    } 71% {
-        stroke-width: 14px;
-        transform: translate(0, 5px);
-        stroke:#FFCD4A;
-        fill: #FFCD4A;
-    } 20% {
-
-    } 7% {
-        stroke:#FFCD4A;
-        fill: #FFCD4A;
-        stroke-width: 14px;
-        transform: translate(0, 5px);
-    } 6% {
-        stroke-width: 0px;
-        
-    } 0% {
-        transform: translate(0, 0);
-        stroke-width: 0px;
-        fill: #fff;
-        
-    }
-}
-
-.worker_li  svg .cr_1  { stroke-width: 4.5px; fill: #FFCD4A }
-.worker_li.svg_ani svg .cr_1 { animation: wrkr_3 4s infinite; }
-@keyframes wrkr_3 {
-    100% {
-    } 73% {
-        stroke-width: 4.5px;
-        
-        transform: translate(0, 0);
-    } 71% {
-        stroke-width: 18px;
-        transform: translate(0, 5px);   
-        fill: #FFCD4A;
-    } 20% {
-    } 7% {
-        stroke-width: 18px;
-        transform: translate(0, 5px);
-        fill: #FFCD4A;
-    } 6% {
-        stroke-width: 4.5px;
-    }  0% {
-        transform: translate(0, 0);
-        stroke-width: 4.5px;
-        fill: #FFCD4A;
-    }   
-}
-
-.worker_li.svg_ani svg .sh_1 {
-    animation: 4s infinite wrkr_5
-}
-
-@keyframes wrkr_5 {
-    0%,80% {
-        transform: translate(0,0);
-        fill: #fff
-    }
-
-    12%,70% {
-        transform: translate(0,15px);
-        fill: #FFCD4A
-    }
-}
-
-.worker_li.svg_ani svg .sh_2 {
-    animation: 4s infinite wrkr_6
-}
-
-@keyframes wrkr_6 {
-    0%,75% {
-        transform: translate(0,0)
-    }
-
-    12%,70% {
-        transform: translate(0,15px)
-    }
-}
-
-@media screen and (max-width: 1024px) {
- .pro_ul li a:after, 
- .pro_ul li a:before,
- .pro_ul li:hover a:before,
- .pro_ul li:hover a:after {
-     transform: translateY(-1000px)
-     width:0px !important;
-     height:0px !important;
-     z-index: -100;
-     
-  }
-}
