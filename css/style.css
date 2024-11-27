@@ -1778,8 +1778,8 @@ body.open .nav .burger a span {
         font-size: 39px
     }
 
-    #cont .sub {
-        display: none
+    #cont p.sub {
+        display: none !important;
     }
 
     #cont p.sub {
