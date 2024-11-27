@@ -2457,7 +2457,7 @@ p.sub span.p_0.span_1.ro_ani,p.sub span.p_0.span_2.ro_ani,p.sub span.p_0.span_3.
 }
 
 @keyframes wrkr_2 {
-    90% {
+    100%, 90% {
         opacity: 0
     }
 
