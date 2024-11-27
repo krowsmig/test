@@ -160,10 +160,12 @@
     position: absolute;
     top: 110px;
     left: 117px;
+    
     width: 70px;
     height: 70px;
     border-radius: 20px;
-    background: url("../images/hddc/ic_hm.webp") center center no-repeat
+    background: url("../images/hddc/ic_hm.webp") center center no-repeat;
+    background-size: 70px;
 }
 
 #wrapper .content_dd .cont,#wrapper .content_dd .title {
