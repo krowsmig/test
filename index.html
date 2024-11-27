@@ -17,19 +17,14 @@
 		<script src="js/index_script.js"></script>
 		
 		<style type="text/css">
-			
+			@media screen and (max-width: 1024px) {
+				.pro_ul li .case_btn {transition:0s}
+			}
 
 		</style>
 
 		<script type="text/javascript">
-			jQuery(function(){
-      jQuery('a').on('click', function (e) {
-        if(jQuery(this).attr('href') !== '#' && typeof jQuery(this).attr('href') !== 'undefined' && !jQuery(this).closest('li').hasClass('menu-item-has-children')) {
-          e.preventDefault();
-          window.location.href = jQuery(this).attr('href');
-        }
-      });
-    });
+			
 		</script>
 
 	</head>
