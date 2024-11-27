@@ -17,32 +17,34 @@
 		<script src="js/index_script.js"></script>
 
 		<style type="text/css">
-			
+
 		</style>
 
 		<script type="text/javascript">
+
+			// prevent double tab error on ios
 			function hasTouch() {
-  return 'ontouchstart' in document.documentElement
-         || navigator.maxTouchPoints > 0
-         || navigator.msMaxTouchPoints > 0;
-}
+				return 'ontouchstart' in document.documentElement
+				 || navigator.maxTouchPoints > 0
+				 || navigator.msMaxTouchPoints > 0;
+				}
 
-if (hasTouch()) { // remove all the :hover stylesheets
-  try { // prevent exception on browsers not supporting DOM styleSheets properly
-    for (var si in document.styleSheets) {
-      var styleSheet = document.styleSheets[si];
-      if (!styleSheet.rules) continue;
+				if (hasTouch()) { // remove all the :hover stylesheets
+					try { // prevent exception on browsers not supporting DOM styleSheets properly
+						for (var si in document.styleSheets) {
+							var styleSheet = document.styleSheets[si];
+							if (!styleSheet.rules) continue;
 
-      for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
-        if (!styleSheet.rules[ri].selectorText) continue;
+							for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
+							if (!styleSheet.rules[ri].selectorText) continue;
 
-        if (styleSheet.rules[ri].selectorText.match(':hover')) {
-          styleSheet.deleteRule(ri);
-        }
-      }
-    }
-  } catch (ex) {}
-}
+							if (styleSheet.rules[ri].selectorText.match(':hover')) {
+							  styleSheet.deleteRule(ri);
+							}
+						}
+					}
+				} catch (ex) {}
+			}
 		</script>
 
 
@@ -137,7 +139,7 @@ if (hasTouch()) { // remove all the :hover stylesheets
 										<p class="crtd">2024</p>
 									</div>
 								</div>
-								<a target="_blank" href="en/ltch.html" class="case_btn" title="Case Study (Open in new tab)">Case Study</a>
+								<a href="en/ltch.html" class="case_btn" title="Case Study">Case Study</a>
 							</div>
 						</li>
 						<li class="pro_2">

@@ -17,49 +17,34 @@
 		<script src="js/index_script.js"></script>
 		
 		<style type="text/css">
-			@media screen and (max-width: 1024px) {
-				#forfun .pro_img_div,
-				#forfun .pro_ul li img { width: 100% !important; }
-
-				
-				.pro_ul li:hover .case_btn, .pro_ul li:hover, 
-				#projects .pro_ul li:hover h2, #projects .pro_ul li:hover .crtd,
-				#projects .pro_ul li:hover p span, .pro_ul li:hover .descript,
-				#projects .pro_ul p span {
-					trasition: none;
-					-webkit-transition-property: none; -moz-transition-property: none;-o-transition-property: none;transition-property: none;
-				}
-				#projects .pro_ul li h2, #projects .pro_ul li .crtd,
-				#projects .pro_ul li p span {color:#1c1c1c}
-			a}
-			
 
 		</style>
 
 		<script type="text/javascript">
-			function hasTouch() {
-  return 'ontouchstart' in document.documentElement
-         || navigator.maxTouchPoints > 0
-         || navigator.msMaxTouchPoints > 0;
-}
-
-if (hasTouch()) { // remove all the :hover stylesheets
-  try { // prevent exception on browsers not supporting DOM styleSheets properly
-    for (var si in document.styleSheets) {
-      var styleSheet = document.styleSheets[si];
-      if (!styleSheet.rules) continue;
-
-      for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
-        if (!styleSheet.rules[ri].selectorText) continue;
-
-        if (styleSheet.rules[ri].selectorText.match(':hover')) {
-          styleSheet.deleteRule(ri);
-        }
-      }
-    }
-  } catch (ex) {}
-}
 			
+			// prevent double tab error on ios
+			function hasTouch() {
+				return 'ontouchstart' in document.documentElement
+				 || navigator.maxTouchPoints > 0
+				 || navigator.msMaxTouchPoints > 0;
+				}
+
+				if (hasTouch()) { // remove all the :hover stylesheets
+					try { // prevent exception on browsers not supporting DOM styleSheets properly
+						for (var si in document.styleSheets) {
+							var styleSheet = document.styleSheets[si];
+							if (!styleSheet.rules) continue;
+
+							for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
+							if (!styleSheet.rules[ri].selectorText) continue;
+
+							if (styleSheet.rules[ri].selectorText.match(':hover')) {
+							  styleSheet.deleteRule(ri);
+							}
+						}
+					}
+				} catch (ex) {}
+			}
 		</script>
 
 	</head>
@@ -153,8 +138,7 @@ if (hasTouch()) { // remove all the :hover stylesheets
 										<p class="crtd">2024</p>
 									</div>
 								</div>
-								<a href="kr/ltch.html" class="case_btn" title="케이스 스터디">케이스 스터디<span class="before"></span><span class="after"></span></a>
-								<div class="pro_after"></div>
+								<a href="kr/ltch.html" class="case_btn" title="케이스 스터디">케이스 스터디</a>
 							</div>
 						</li>
 						<li class="pro_2">
@@ -173,8 +157,7 @@ if (hasTouch()) { // remove all the :hover stylesheets
 										<p class="crtd">2022</p>
 									</div>
 								</div>
-								<a href="kr/jndk.html" class="case_btn" title="케이스 스터디">케이스 스터디<span class="before"></span><span class="after"></span></a>
-								<div class="pro_after"></div>
+								<a href="kr/jndk.html" class="case_btn" title="케이스 스터디">케이스 스터디</a>
 							</div>
 						</li>
 						<li class="pro_3">
@@ -193,8 +176,7 @@ if (hasTouch()) { // remove all the :hover stylesheets
 										<p class="crtd">2021</p>
 									</div>
 								</div>
-								<a href="kr/hdwk.html" class="case_btn" title="케이스 스터디">케이스 스터디<span class="before"></span><span class="after"></span></a>
-								<div class="pro_after"></div>
+								<a href="kr/hdwk.html" class="case_btn" title="케이스 스터디">케이스 스터디</a>
 							</div>
 						</li>
 						<li class="pro_4">
@@ -215,8 +197,7 @@ if (hasTouch()) { // remove all the :hover stylesheets
 										<p class="crtd">2020</p>
 									</div>
 								</div>
-								<a href="kr/hdhm.html" class="case_btn" title="케이스 스터디">케이스 스터디<span class="before"></span><span class="after"></span></a>
-								<div class="pro_after"></div>
+								<a href="kr/hdhm.html" class="case_btn" title="케이스 스터디">케이스 스터디</a>
 							</div>
 						</li>
 						<li class="pro_5">
@@ -237,8 +218,7 @@ if (hasTouch()) { // remove all the :hover stylesheets
 										<p class="crtd">2019~20</p>
 									</div>
 								</div>
-								<a href="kr/hddc.html" class="case_btn" title="케이스 스터디">케이스 스터디<span class="before"></span><span class="after"></span></a>
-								<div class="pro_after"></div>
+								<a href="kr/hddc.html" class="case_btn" title="케이스 스터디">케이스 스터디</a>
 							</div>
 						</li>
 						<li class="pro_6">
@@ -259,8 +239,7 @@ if (hasTouch()) { // remove all the :hover stylesheets
 										<p class="crtd">2018~21</p>
 									</div>
 								</div>
-								<a href="kr/hd.html" class="case_btn" title="케이스 스터디">케이스 스터디<span class="before"></span><span class="after"></span></a>
-								<div class="pro_after"></div>
+								<a href="kr/hd.html" class="case_btn" title="케이스 스터디">케이스 스터디</a>
 							</div>
 						</li>
 						<li class="pro_7">
@@ -281,8 +260,7 @@ if (hasTouch()) { // remove all the :hover stylesheets
 										<p class="crtd">2018</p>
 									</div>
 								</div>
-								<a href="kr/hdck.html" class="case_btn" title="케이스 스터디">케이스 스터디<span class="before"></span><span class="after"></span></a>
-								<div class="pro_after"></div>
+								<a href="kr/hdck.html" class="case_btn" title="케이스 스터디">케이스 스터디</a>
 							</div>
 						</li>
 						<li class="pro_8">
@@ -302,8 +280,7 @@ if (hasTouch()) { // remove all the :hover stylesheets
 										<p class="crtd">2018</p>
 									</div>
 								</div>
-								<a href="kr/hdck_tb.html" class="case_btn" title="케이스 스터디">케이스 스터디<span class="before"></span><span class="after"></span></a>
-								<div class="pro_after"></div>
+								<a href="kr/hdck_tb.html" class="case_btn" title="케이스 스터디">케이스 스터디</a>
 							</div>
 						</li>
 					</ul>
