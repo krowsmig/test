@@ -2576,7 +2576,7 @@ p.sub span.p_0.span_1.ro_ani,p.sub span.p_0.span_2.ro_ani,p.sub span.p_0.span_3.
 }
 
 @media (hover: none) {
- .pro_ul li a:after {
+ .pro_ul li a:after, .pro_ul li a:before {
     display: none;
   }
 }
