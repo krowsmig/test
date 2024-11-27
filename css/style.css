@@ -146,7 +146,7 @@ body {
     font-size: 20px
 }
 
-.pro_ul,.pro_ul li img,.pro_ul li:hover .pro_div:after {
+.pro_ul,.pro_ul li img,.pro_ul li:hover .pro_div .pro_after {
     width: 100%
 }
 
@@ -561,7 +561,7 @@ body.open {
     color: #1c1c1c
 }
 
-.pro_ul li .pro_div:after {
+.pro_ul li .pro_div .pro_after {
     content: '';
     display: block;
     height: 1px;
@@ -573,11 +573,11 @@ body.open {
     left: 0
 }
 
-#projects .pro_ul li.pro_2 .pro_div:after,#projects .pro_ul li.pro_4 .pro_div:after,#projects .pro_ul li.pro_6 .pro_div:after,#projects .pro_ul li.pro_8 .pro_div:after {
+#projects .pro_ul li.pro_2 .pro_div .pro_after,#projects .pro_ul li.pro_4 .pro_div .pro_after,#projects .pro_ul li.pro_6 .pro_div .pro_after,#projects .pro_ul li.pro_8 .pro_div .pro_after {
     left: -36px
 }
 
-#projects .pro_ul li.pro_2:hover .pro_div:after,#projects .pro_ul li.pro_4:hover .pro_div:after,#projects .pro_ul li.pro_6:hover .pro_div:after,#projects .pro_ul li.pro_8:hover .pro_div:after {
+#projects .pro_ul li.pro_2:hover .pro_div .pro_after,#projects .pro_ul li.pro_4:hover .pro_div .pro_after,#projects .pro_ul li.pro_6:hover .pro_div .pro_after,#projects .pro_ul li.pro_8:hover .pro_div .pro_after {
     width: 110%
 }
 
@@ -937,7 +937,7 @@ body.open .nav .burger a span {
         padding-left: 0
     }
 
-    .pro_ul li .pro_div:after {
+    .pro_ul li .pro_div .pro_after {
         top: -27px
     }
 
@@ -952,7 +952,7 @@ body.open .nav .burger a span {
         margin-left: -13px
     }
 
-    #projects .pro_ul li.pro_2 .pro_div:after,#projects .pro_ul li.pro_4 .pro_div:after,#projects .pro_ul li.pro_6 .pro_div:after,#projects .pro_ul li.pro_8 .pro_div:after {
+    #projects .pro_ul li.pro_2 .pro_div .pro_after,#projects .pro_ul li.pro_4 .pro_div .pro_after,#projects .pro_ul li.pro_6 .pro_div .pro_after,#projects .pro_ul li.pro_8 .pro_div .pro_after {
         left: -26px
     }
 
@@ -1140,7 +1140,7 @@ body.open .nav .burger a span {
         padding-left: 0
     }
 
-    .pro_ul li .pro_div:after {
+    .pro_ul li .pro_div .pro_after {
         top: -23px
     }
 
@@ -1148,7 +1148,7 @@ body.open .nav .burger a span {
         margin-left: -11px
     }
 
-    #projects .pro_ul li.pro_2 .pro_div:after,#projects .pro_ul li.pro_4 .pro_div:after,#projects .pro_ul li.pro_6 .pro_div:after,#projects .pro_ul li.pro_8 .pro_div:after,.pro_ul li.pro_2:hover .case_btn,.pro_ul li.pro_4:hover .case_btn,.pro_ul li.pro_6:hover .case_btn,.pro_ul li.pro_8:hover .case_btn {
+    #projects .pro_ul li.pro_2 .pro_div .pro_after,#projects .pro_ul li.pro_4 .pro_div .pro_after,#projects .pro_ul li.pro_6 .pro_div .pro_after,#projects .pro_ul li.pro_8 .pro_div .pro_after,.pro_ul li.pro_2:hover .case_btn,.pro_ul li.pro_4:hover .case_btn,.pro_ul li.pro_6:hover .case_btn,.pro_ul li.pro_8:hover .case_btn {
         left: -22px
     }
 
@@ -1288,7 +1288,7 @@ body.open .nav .burger a span {
 
     #wrapper .pro_ul .case_btn {
         border-radius: 0;
-        background: none;
+        background: 0 0;
         width: 100%;
         height: 100%;
         top: 0;
@@ -1308,7 +1308,7 @@ body.open .nav .burger a span {
         background: 0 0
     }
 
-    #projects .pro_ul:after,.pro_ul li .bk,.pro_ul li .case_btn .after,.pro_ul li .case_btn .before,.pro_ul li .pro_div:after {
+    #projects .pro_ul:after,.pro_ul li .bk,.pro_ul li .case_btn .after,.pro_ul li .case_btn .before,.pro_ul li .pro_div .pro_after {
         display: none
     }
     .pro_ul li:hover .case_btn .before,
