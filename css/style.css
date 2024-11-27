@@ -1312,10 +1312,10 @@ body.open .nav .burger a span {
         display: none
     }
     .pro_ul li:hover .case_btn:before,
-	.pro_ul li:hover .case_btn:after,
-	.pro_ul li .case_btn:before,
-	.pro_ul li .case_btn:after
-	{display:none !important;}
+    .pro_ul li:hover .case_btn:after,
+    .pro_ul li .case_btn:before,
+    .pro_ul li .case_btn:after
+    {display:none !important;}
 
     .pro_ul .descript .descript_div * {
         color: #1c1c1c;
@@ -1763,13 +1763,14 @@ body.open .nav .burger a span {
     }
 
     #cont,.gdbye {
-        padding: 330px 0 50px;
+        padding: 360px 0 50px;
         max-height: 560px;
+        box-sizing: border-box;
     }
 
     #cont p.main,.gdbye p {
         font-size: 35px;
-        line-height: 45px;
+        line-height: 40px;
         padding-bottom: 0
     }
 
@@ -1784,12 +1785,12 @@ body.open .nav .burger a span {
     #cont p.sub {
         display: block;
         top: 40px;
-        line-height: 41px;
+        line-height: 38px;
         opacity: 1
     }
 
     #cont .sub span {
-        margin-right: 8px
+        margin-right: 5px;
     }
 
     .fun_bg {
@@ -1802,13 +1803,16 @@ body.open .nav .burger a span {
     }
 }
 
+
 @media screen and (max-width: 430px) {
     #cont,.gdbye {
-        padding:600px 0 40px
+        padding:600px 0 40px;
+        max-height: 800px;
     }
 
     #cont p.sub {
-        padding-left: 20px
+        padding-left: 20px;
+        top: 30px;
     }
 }
 
@@ -1852,7 +1856,7 @@ body.open .nav .burger a span {
     #cont p.main,.gdbye p {
         padding-left: 20px;
         font-size: 30px;
-        line-height: 40px
+        line-height: 35px;
     }
 
     .gdbye {
@@ -1911,7 +1915,7 @@ body.open .nav .burger a span {
         padding-top: 15px;
         border-top: 1px solid #ebebeb;
         margin-top: 15px;
-	
+    
     }
 
     #projects .pro_ul p span {
@@ -1955,11 +1959,12 @@ body.open .nav .burger a span {
 
 @media screen and (max-width: 375px) {
     #cont,.gdbye {
-        padding:360px 0 40px
+        padding: 380px 0 40px;
+        max-height: 550px;
     }
 
     #cont p.sub {
-        top: 40px;
+        top: 25px;
         line-height: 38px;
         opacity: 1
     }
@@ -1987,14 +1992,14 @@ body.open .nav .burger a span {
 
 @media screen and (max-width: 360px) {
     #cont,.gdbye {
-        padding:430px 0 40px;
+        padding: 460px 0 40px;
         max-height: 630px;
         box-sizing: border-box;
     }
 
     #cont p.main, .gdbye p {
         font-size: 32px;
-        line-height: 42px;
+        line-height: 34px;
     }
 }
 
@@ -2005,15 +2010,17 @@ body.open .nav .burger a span {
     }
 
     #cont,.gdbye {
-        padding: 240px 0 30px
+        padding: 276px 0 30px;
+        max-height: 414px;
     }
 
     #cont p.sub {
         top: 20px;
+        line-height: 33px;
     }
     #cont p.main,.gdbye p {
         font-size: 25px;
-        line-height: 36px
+        line-height: 28px;
     }
 
     #cont p.main span {
@@ -2515,7 +2522,7 @@ p.sub span.p_0.span_1.ro_ani,p.sub span.p_0.span_2.ro_ani,p.sub span.p_0.span_3.
         stroke-width: 0px;
         
     } 0% {
-    	transform: translate(0, 0);
+        transform: translate(0, 0);
         stroke-width: 0px;
         fill: #fff;
         
@@ -2532,20 +2539,20 @@ p.sub span.p_0.span_1.ro_ani,p.sub span.p_0.span_2.ro_ani,p.sub span.p_0.span_3.
         transform: translate(0, 0);
     } 71% {
         stroke-width: 18px;
-        transform: translate(0, 5px);	
-		fill: #FFCD4A;
+        transform: translate(0, 5px);   
+        fill: #FFCD4A;
     } 20% {
     } 7% {
-    	stroke-width: 18px;
-    	transform: translate(0, 5px);
-    	fill: #FFCD4A;
-    } 6% {
-    	stroke-width: 4.5px;
-    }  0% {
-    	transform: translate(0, 0);
-    	stroke-width: 4.5px;
+        stroke-width: 18px;
+        transform: translate(0, 5px);
         fill: #FFCD4A;
-    }	
+    } 6% {
+        stroke-width: 4.5px;
+    }  0% {
+        transform: translate(0, 0);
+        stroke-width: 4.5px;
+        fill: #FFCD4A;
+    }   
 }
 
 .worker_li.svg_ani svg .sh_1 {
@@ -2583,10 +2590,10 @@ p.sub span.p_0.span_1.ro_ani,p.sub span.p_0.span_2.ro_ani,p.sub span.p_0.span_3.
  .pro_ul li a:before,
  .pro_ul li:hover a:before,
  .pro_ul li:hover a:after {
-	 transform: translateY(-1000px)
-	 width:0px !important;
-	 height:0px !important;
-	 z-index: -100;
-	 
+     transform: translateY(-1000px)
+     width:0px !important;
+     height:0px !important;
+     z-index: -100;
+     
   }
 }
