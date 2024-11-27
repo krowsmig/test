@@ -22,6 +22,14 @@
 		</style>
 
 		<script type="text/javascript">
+			jQuery(function(){
+      jQuery('a').on('click', function (e) {
+        if(jQuery(this).attr('href') !== '#' && typeof jQuery(this).attr('href') !== 'undefined' && !jQuery(this).closest('li').hasClass('menu-item-has-children')) {
+          e.preventDefault();
+          window.location.href = jQuery(this).attr('href');
+        }
+      });
+    });
 		</script>
 
 	</head>
