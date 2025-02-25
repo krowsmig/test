@@ -101,10 +101,6 @@ body.change .header_bg { border-color: #000 }
 #for_fun ul li.li_2 img { background-color: #ff6006 }
 #for_fun ul li.li_0 .img_1,
 #for_fun ul li.li_0 .pro_img_div img,
-#for_fun ul li.li_1 .img_1,
-#for_fun ul li.li_1 .img_4,
-#for_fun ul li.li_1 .img_5,
-#for_fun ul li.li_1 .pro_img_div img { background-color: #efefef }
 #for_fun ul li.li_0 .img_2 { background-color: #ae2019 }
 #for_fun ul li.li_0 .img_3 { background-color: #121212 }
 #for_fun ul li.li_1 .img_2 { background-color: #00ac6a }
@@ -130,7 +126,16 @@ body.change .header_bg { border-color: #000 }
 #for_fun ul li .rnd img { transition:0.2s }
 #for_fun ul li:hover .rnd img { transform: scale(1.04) }
 
+#for_fun ul li.li_1 .img_1,
+#for_fun ul li.li_1 .img_2,
+#for_fun ul li.li_1 .img_5,
+#for_fun ul li.li_1 .pro_img_div img { background-color: #efefef }
+#for_fun ul li.li_1 .img_3 { background-color: #00ac6a }
+#for_fun ul li.li_1 .img_4 { background-color: #a25c00 }
 
+
+#for_fun ul li.li_4 img {background-color: #282828}
+#for_fun ul li.li_4 img.gry {background-color: #d8d8d8}
 
 /* footer */
 footer  { overflow:  hidden; border-top:1px solid #000; width:100%; }
